@@ -1,0 +1,72 @@
+*{background-color:yellowgreen;}
+
+body{margin: 0;padding: 0;}
+
+nav{background-color: greenyellow;}
+li{background-color: greenyellow;}
+ul{background-color: greenyellow;}
+
+header{
+    display: flex; background-color: greenyellow; align-items: center; justify-content: space-between;}
+
+header nav ul{
+    display: flex;
+    gap: 10px; gap: 30px;}
+
+ol,
+ul {list-style: none;}
+
+a{text-decoration: none;}
+
+
+i {color:darkgreen; background-color: greenyellow; font-size: 30px;}
+
+
+h2 {font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+h2{color: white; font-size: 18px;}
+p {font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif,  font-size 15px; color:white;}
+
+.foto.perfil img {
+    width: 100px; /* Ancho fijo de 100 píxeles */
+    height: auto; /* Ajusta automáticamente la altura */
+}
+
+.dibujo2 img {
+    width: 100%; /* La imagen ocupará el 100% del ancho de la pantalla */
+    height: auto; /* Ajustará la altura automáticamente para mantener las proporciones */
+}
+
+.seccion-acerca {
+    display: flex; /* Crea una disposición horizontal */
+    align-items: center; /* Centra verticalmente el texto y la imagen */
+    justify-content: space-between; /* Espacia los elementos entre sí */
+    gap: 20px; /* Espacio entre el texto y la imagen */
+}
+
+.acerca.de {
+    flex: 1; /* El texto ocupa más espacio */
+}
+
+.foto.perfil img {
+    max-width: 200px; /* Limita el ancho de la imagen */
+    height: auto; /* Mantiene la proporción de la imagen */
+}
+
+.imagen1 img {
+    width: 100%; /* Limita el ancho de la imagen */
+    height: auto; /* Mantiene la proporción de la imagen */
+}
+
+
+footer {
+    background-color: greenyellow; 
+    color: grey;          
+    text-align: right;  
+    padding: 10px;  
+    font-size: 18px;
+}
+
+ h3 {background-color: greenyellow;}
+ a{background-color: greenyellow; }
+ a{color: grey;}
+ 

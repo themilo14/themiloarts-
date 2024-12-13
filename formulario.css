@@ -1,0 +1,75 @@
+body{margin: 0;padding: 0;}
+
+nav{background-color: greenyellow;}
+li{background-color: greenyellow;}
+ul{background-color: greenyellow;}
+
+header{
+    display: flex; background-color: greenyellow; align-items: center; justify-content: space-between;}
+
+header nav ul{
+    display: flex;
+    gap: 10px; gap: 30px;}
+
+ol,
+ul {list-style: none;}
+
+a{text-decoration: none;}
+
+
+i {color:darkgreen; background-color: greenyellow; font-size: 30px;}
+
+
+
+footer {
+    background-color: greenyellow; 
+    color: grey;          
+    text-align: right;  
+    padding: 10px;  
+    font-size: 18px;
+}
+
+
+.titulo_seccion {
+    position: relative;
+    font-size: 50px;
+    
+    color: greenyellow;
+    text-align: center;
+  }
+
+  .container {
+    max-width: 30px; /* Define el ancho máximo del contenedor */
+    margin: 0 auto; /* Centra el contenedor horizontalmente */
+    padding: 8px; /* Agrega un poco de espacio alrededor del formulario */
+    border: 10px; /* Agrega un borde al contenedor */
+    border-radius: 8px; /* Agrega bordes redondeados al contenedor */
+  }
+  .form-group {
+    margin-bottom: 8px; /* Espacio entre cada input */
+  }
+  label {
+    margin-bottom: 60px;
+  }
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 300px; /* Define el ancho máximo del input */
+    padding: 40px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  textarea {
+    resize: vertical; /* Permite redimensionar verticalmente el textarea */
+  }
+  button {
+    /* Coloca estilos a tu botón */
+    width: 150px; /* Define el ancho máximo del input */
+    padding: 12px;
+    border: 6px solid greenyellow;
+    border-radius: 8px;
+    margin :15px
+  }
+  button:hover {
+    background-color: #0056b3;
+  }
